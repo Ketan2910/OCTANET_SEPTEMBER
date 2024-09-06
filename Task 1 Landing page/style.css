@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(rgba(118, 207, 255, 0.75),rgba(117, 205, 252, 0.75)),url(https://c8.alamy.com/comp/2RAMKYJ/computer-hardware-seamless-pattern-laptop-portable-hard-drive-monitor-mouse-cpu-fan-router-printer-icons-vector-illustration-2RAMKYJ.jpg);
+    background-size: cover;
+    height: 200vh;
+}
+
+/* Navbar css start */
+
+nav{
+    display: flex;
+    gap: 40%;
+    background-color: rgb(234, 250, 255);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-container{
+    display: flex;
+}
+
+.nav-container a{
+    padding: 15px;
+    color: rgb(12, 115, 143);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    padding: 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(12, 115, 143);
+    font-size: 18px;
+}
+
+li a:hover{
+    color: rgb(36, 207, 222);
+}
+.logo{
+    width: 100px;
+}
+
+/* Navbar css end */
+
+/* hero section css start */
+.container-hero{
+    background: linear-gradient(rgba(145, 255, 255, 0.553),rgba(142, 210, 255, 0.493)),url(https://www.iotworlds.com/wp-content/uploads/2022/11/iotworlds-Best-Router-for-50-Devices-in-Smart-Home.webp);
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    padding-top: 150px;
+    padding-bottom: 170px;
+}
+
+.hero-content h1{
+    text-align: center;
+    letter-spacing: 15px;
+    word-spacing: 20px;
+    font-size: 55px;
+}
+
+.hero-content h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.hero-content p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.hero-content button{
+    width: 20%;
+    margin: 30px 600px 10px;
+    background-color: aqua;
+    border-radius: 1px;
+    font-size: 25px;
+    border: none;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 1px rgb(66, 67, 68);
+}
+
+button a{
+    text-decoration: none;
+    color: #000000;
+}
+
+button a:hover{
+    color: #ffffff;
+}
+
+.hero-content button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 1px rgb(253, 254, 255);
+}
+
+/* hero section css end */
+
+/* About css start */
+.container-about{
+   text-align: center;
+   padding-top: 4%;
+   position: sticky;
+   padding-bottom: 4rem;
+   background-color: rgb(207, 238, 248);
+}
+
+.container-about h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.container-about hr{
+    margin: 30px auto;
+    width: 12%;
+    border-color: rgb(2, 99, 116);
+}
+
+.container-about p{
+    font-size: 19px;
+    padding-top: 10px ;
+}
+
+/* About css end */
+
+/* Why css  start */
+.container-why{
+    text-align: center;
+    padding-top: 3rem;
+    position: sticky;
+    background-color: rgb(183, 238, 255);
+    padding-bottom: 4rem;
+ }
+
+ .container-why h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.container-why hr{
+    margin: 30px auto;
+    width: 25%;
+    border-color: rgb(2, 99, 116);
+}
+
+.container-why .cards{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-why .cards .card{
+    width: 30%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.63);
+    background-color: #7a7a7a9a;
+    color: #000000;
+}
+
+.container-why .cards .card h3{
+    color: rgb(0, 0, 0);
+}
+
+.container-why .cards .card:hover{
+    transform: scale(105%);
+    transition: 0.8s;
+}
+/* Why css end */
+
+/* Product css start */
+.container-products{
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgb(207, 238, 248);
+    padding: 2px;
+    padding-bottom: 5rem;
+ }
+
+ .container-products h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.container-products hr{
+    margin: 0px auto;
+    width: 15%;
+    border-color: rgb(2, 99, 116);
+}
+
+.product1{
+    display: flex;
+    width: 100%;
+}
+
+.product2{
+    display: flex;
+    width: 100%;
+}
+
+.product3{
+    display: flex;
+    width: 100%;
+}
+
+.product4{
+    display: flex;
+    width: 100%;
+}
+
+.product1 .content{
+   align-self: center;
+   font-size: 1.5rem;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.product2 .content{
+    align-self: center;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.product3 .content{
+    align-self: center;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.product4 .content{
+    align-self: center;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.image:hover{
+    transform: scale(108%);
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 10px rgb(73, 74, 74));
+}
+/* Product css end */
+
+/* Services css start */
+.container-services{
+    text-align: center;
+    padding-top: 3rem;
+    background-color: rgb(183, 238, 255);
+    padding-bottom: 5rem;
+ }
+
+ .container-services h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.container-services hr{
+    margin: 10px auto;
+    width: 15%;
+    border-color: rgb(2, 99, 116);
+}
+
+.service-card{
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    gap: 20px;
+    justify-content: center;
+ }
+
+ .service{
+    width: 30%;
+    border: 2px outset black;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px 5px rgba(108, 107, 107, 0.752);
+ }
+
+ .service img{
+    width: 23rem;
+    height: 30vh;
+    background-color: #fff;
+ }
+
+ .service img:hover{
+    transform: scale(110%);
+    transition: 1s;
+    box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.333);
+    border-radius: 20px;
+ }
+
+ .service h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+ }
+
+ .service p{
+    text-align: justify;
+ }
+
+/* Services css end */
+
+/* Contact css start */
+.container-contact{
+    padding-top: 3rem;
+    position: sticky;
+    padding-bottom: 4rem;
+ }
+
+ .container-contact h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 50px;
+}
+.container-contact hr{
+    margin: 30px auto;
+    width: 72%;
+    border-color: rgb(2, 99, 116);
+    margin-right: 18px;
+}
+
+.container-contact .form{
+    background: #fff;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 3rem;
+    padding-bottom: 4rem;   
+}
+
+.form{
+    display: flex;
+}
+
+.form-in{
+    padding: 50px;
+}
+.form-in input{
+    width: 135%;
+    height: 5vh;
+    border: 2px ridge rgb(31, 31, 32);
+    padding: 20px;
+}
+
+.form-in textarea{
+    width: 135%;
+    height: 5vh;
+    border: 2px ridge rgb(31, 31, 32);
+    padding: 20px;
+}
+
+.form-in button{
+    margin-top: 2.3rem;  
+    width: 50%;
+    font-size: large;
+    height: 5vh;
+    font-weight: 500;
+    background-color: rgba(144, 224, 255, 0.5);
+}
+
+.form-in button:hover{
+    background-color: rgba(144, 224, 255, 0.708);
+    transform: matrix3d(1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 5, 1.1);
+    transition: 1s;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.map{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+/* Contact css end */
+
+/* Footer Css Start */
+.footer{
+    background: #000000;
+    padding-top: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.social img{
+  width: 3%;
+  padding: 5px;
+}
+
+.footer .navlinks li{
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.copyright{
+    color: #000000;
+    margin-top: 50px;
+    background: rgb(9, 92, 130);
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.copyright a{
+    color: #000000;
+    text-decoration: none;
+}
+/* Footer Css End */
